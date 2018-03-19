@@ -72,7 +72,12 @@ require = (function (modules, cache, entry) {
   // Override the current require with this new one
   return newRequire;
 })({4:[function(require,module,exports) {
-
+var vue = new Vue({
+  el: '#root',
+  data: {
+    title: 'Hello Me'
+  }
+});
 },{}],13:[function(require,module,exports) {
 
 var global = (1, eval)('this');

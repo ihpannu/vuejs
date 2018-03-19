@@ -1,11 +1,6 @@
-// import Vue from 'vue';
-import App from './App';
-
-Vue.config.productionTip = false;
-
-/* eslint-disable no-new */
-new Vue({
+const vue = new Vue({
   el: '#root',
-  template: '<App/>',
-  components: { App }
+  data: {
+    title: 'Hello Me'
+  }
 });
