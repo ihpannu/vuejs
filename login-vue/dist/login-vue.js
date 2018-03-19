@@ -71,13 +71,9 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({11:[function(require,module,exports) {
-module.exports="/dist/e1f24300f27481badbbc8fbb40eb3bf6.vue";
-},{}],4:[function(require,module,exports) {
-'use strict';
+})({4:[function(require,module,exports) {
 
-require('./components/App.vue');
-},{"./components/App.vue":11}],12:[function(require,module,exports) {
+},{}],13:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -200,5 +196,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[12,4])
+},{}]},{},[13,4])
 //# sourceMappingURL=/dist/login-vue.map
